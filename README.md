@@ -5,5 +5,5 @@ Verkefni 1. Undirbúning
 ```
 nafn: 			Tómas
 kvikmynd:			Indiana Jones
-kvikmyndar stefna:	crossover...
+kvikmyndar stefna:	crossover... Ég veit ekki
 ```

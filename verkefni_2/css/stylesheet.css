@@ -1,4 +1,32 @@
-body {
-	background-color: #f5f5f5;
-     	font-family: Arial, sans-serif;
+html
+{
+	background: white;
+}
+
+body 
+{
+	border-style: solid;
+	font-family: sans-serif;
+	max-width: 50em;
+	margin: 10px auto;
+	background: pink;
+}
+
+.list_body 
+{
+	text-align: justify;
+	padding: 5px 50px 5px 50px;
+}
+
+.the_bad_things
+{
+	text-decoration: underline blue;
+	text-decoration-thickness: 3px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: inherit;
+	font-style: italic; 
+	padding-left: 10px;	
 }

@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+}
+h3 {
+  text-align: center;
+}
+/******  CSS grid  ******/
+
+/***** 0 - 37.5em ******/
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr;      
+}
+.col-3 {
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+.col-4 {
+  display: grid;
+  grid-template-columns: 1fr;     
+}
+
+.col-2, .col-3, .col-4 {
+  gap:2em;
+  row-gap: 1em;
+  border:1px solid #888;
+  padding: 1em; 
+}
+
+/***************************/
+header,
+footer {
+    background: #deeadd;
+    text-align: center;
+    margin-top: 0;
+    padding: 1em;
+}
+/******  Viðmið (Breakpoints)  ******/
+
+@media screen and (min-width:37.5em) {
+  .col-4 {
+    grid-template-columns: 1fr 1fr;      /* 2 dálkar 50%*/
+  }  
+}
+
+@media screen and (min-width:48em) {
+  .col-2 {
+    grid-template-columns: 1fr 1fr;      /* 2 dálkar 50%*/
+  }
+  .col-3 {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .col-4 {
+    grid-template-columns: repeat(2, 1fr);  
+  }  
+
+}
+
+@media screen and (min-width:60em) {
+  .col-2 {
+    grid-template-columns: 1fr 1fr;      /* 2 dálkar 50%*/
+  }  
+  .col-3 {
+    grid-template-columns: repeat(3, 1fr); /* 3 dálkar 33.3333% */
+  }
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);      /* 4 dálkar 25%*/
+  }  
+  .footer {
+    display: flex; 
+    flex-flow: row;  /* ath*/
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+  }
+}

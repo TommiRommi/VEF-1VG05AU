@@ -1,0 +1,37 @@
+html
+{
+	background-image: url("../img/Darkestofdarkest.jpeg");
+	background-size: cover;
+}
+
+body
+{
+	max-width: 65em;
+	margin: 0px auto;
+      box-shadow: -10px 0 0 black, 10px 0 0 black;
+}
+
+header 
+{
+	background: #eb6d6d;
+	text-align: center;
+	margin-top 0;
+	padding: 5px;
+}
+
+nav
+{
+	background: #e69e9e;
+	padding: 14px 0px 14px 0px
+}
+
+.header_1_text
+{
+	margin-top: 10px;
+}
+
+main
+{
+	padding-bottom: 100vh;
+	background: white;
+}

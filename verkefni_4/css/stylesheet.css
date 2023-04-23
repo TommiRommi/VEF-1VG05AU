@@ -1,0 +1,29 @@
+@media screen and (min-width: 600px) {
+	.media_3 {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.media_1 {	
+		grid-template-columns: 1fr 1fr;
+	}
+	.media_2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.media_3 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.media_1 {
+		grid-template-columns: 1fr 1fr;
+	}
+	.media_2 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.media_2 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

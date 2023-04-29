@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0 0 20px 0;
+	background-color: darkgray;
+}
+
+img { 
+	max-width:100%;
+	height: auto;
+}
+
+main {
+	border: 1px solid black;
+	margin: 30px 30px 0px 30px;
+	padding: 0 20px 0 20px;
+}
+
+.sex_myndir {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 37.5em) {
+	.sex_myndir {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.sex_myndir {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 80em) {
+	.sex_myndir {
+		max-width: 80em;
+		margin: 0 auto;
+	}
+}

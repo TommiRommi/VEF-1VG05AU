@@ -22,6 +22,12 @@ header {
 	border: none
 }
 
+.menu {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr;
+}
+
 
 @media screen and (min-width: 768px) {
 	.media_1, .media_3 .main_thing {	
@@ -38,5 +44,8 @@ header {
 	}
 	.media_3 {
 		grid-template-columns: repeat(4, 1fr);
+	}
+	.menu {
+		grid-template-columns: repeat(5, 1fr);
 	}
 }
